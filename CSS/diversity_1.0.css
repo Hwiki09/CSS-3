@@ -48,3 +48,21 @@
     width: 25%;
     color: white;    
 }
+
+/* Title: Practice */
+img {
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #807878; 
+}
+img:hover {
+    box-shadow:  10px 10px 10px #8E8B8B,
+    -10px -10px 10px #8E8B8B;
+}
+
+/* Title: Text Shadow */
+.text-shadow {
+    text-shadow: 25px 25px 10px #CCC,  /* Text Shadow: Horizontal Shadow | Vertical Shadow | Blur-Radius | Color */
+                 27px 27px 10px #45A452;
+    font-size: 300px;
+}
