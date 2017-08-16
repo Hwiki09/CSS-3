@@ -105,6 +105,29 @@ img:hover {
 .rotate:hover {
     transform: rotate(-75deg);    
 }
+/* Title: 2D Transform: Scale() */
+.container {
+    width: 400px;
+    height: 200px;
+    background-color: #EEE;
+    margin: 100px auto;
+    border: 1px solid #CCC;
+}
+.scale {
+    background-color: #080;
+    color: #FFF;
+    text-align: center;
+    height: 180px;
+    margin: 10px;
+}
+.scale:hover {
+    transform: scale(2);    
+}
+
+
+
+
 * {
     font-family: consolas;
+    box-sizing: border-box;
 }

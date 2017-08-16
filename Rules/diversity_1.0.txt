@@ -13,3 +13,4 @@
     word-wrap:  Break the word even there is no whitespace 
 8- Transform:
     Rotate(deg)
+    transform: scale(Width, Height)
