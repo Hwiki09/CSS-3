@@ -19,9 +19,32 @@
     -ms-border-radius: 10px; */
 
 /* Title: Box Shadow */
-    box-shadow: -5px -5px 5px 5px #09B0DF,
+    box-shadow: -5px -5px 5px 5px #09B0DF,   /* Box-shadow: Horizontal Shadow | Vertical Shadow | Blur | Spread | Color | Inset, Outset(default) */
                 5px 5px 5px 5px #AB1717,
                 10px 10px 10px 5px #17B42E;
 
 }
 
+/* Title: Box Sizing */
+* {
+    box-sizing: border-box;
+}
+.sect {
+    width: 1080px;
+    margin: 300px auto;
+    background: #DDD;
+    overflow: hidden;
+}
+.left {
+    float: left;
+    background-color: #6619D3;
+    width: 75%;
+    color: white;
+    padding: 10px;
+}
+.right {
+    float: right;
+    background-color: mediumspringgreen;
+    width: 25%;
+    color: white;    
+}

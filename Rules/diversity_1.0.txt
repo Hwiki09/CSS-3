@@ -5,3 +5,4 @@
     -o-.. Opera
     -ms-.. Microsoft
 3- Box Shadow: Horizontal Shadow | Vertical Shadow | Blur | Spread | Color | Inset, Outset(default)
+4- Box Sizing: Border-box / Content-box
