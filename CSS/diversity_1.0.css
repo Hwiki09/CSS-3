@@ -90,3 +90,18 @@ img:hover {
     /* white-space: nowrap; */
     word-wrap: normal;
 }
+
+/* Title: 2D Transform: Rotate() */
+.rotate {
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+    background-color: #C6C2C2;
+    border: 2px solid #A72123;
+    border-radius: 3px;
+}
+.rotate:hover {
+    transform: rotate(-75deg);    
+}
