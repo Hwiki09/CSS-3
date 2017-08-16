@@ -79,3 +79,14 @@ img:hover {
 .overflowz:hover {
     overflow: visible;
 }
+
+/* Title: Whitespace | word-wrap */
+/* Whitespace Break the word only if there is a white space */
+/* word-wrap break the word even there is no whitespace */
+.nowrp {
+    width: 500px;
+    font-size: 30px;
+    background-color: gray;
+    /* white-space: nowrap; */
+    word-wrap: normal;
+}

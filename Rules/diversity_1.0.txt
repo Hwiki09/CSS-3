@@ -8,3 +8,6 @@
 4- Box Sizing: Border-box / Content-box
 5- Text Shadow: Horizontal Shadow | Vertical Shadow | Blur-Radius | Color
 6- Text Overflow: Elipsis(.. Dots) | Whitespace: nowrap
+7- Whitespace | word-wrap 
+    Whitespace: Break the word only if there is a white space 
+    word-wrap:  Break the word even there is no whitespace 
