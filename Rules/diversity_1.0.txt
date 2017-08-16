@@ -4,3 +4,4 @@
     -moz-.. Mozilla
     -o-.. Opera
     -ms-.. Microsoft
+3- Box Shadow: Horizontal Shadow | Vertical Shadow | Blur | Spread | Color | Inset, Outset(default)

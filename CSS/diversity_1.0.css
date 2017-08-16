@@ -17,4 +17,11 @@
 /*  -moz-border-radius: 10px; For resolve The Not Supporting issue from the Browser
     -o-border-radius: 10px;  
     -ms-border-radius: 10px; */
+
+/* Title: Box Shadow */
+    box-shadow: -5px -5px 5px 5px #09B0DF,
+                5px 5px 5px 5px #AB1717,
+                10px 10px 10px 5px #17B42E;
+
 }
+
