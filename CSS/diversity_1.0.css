@@ -66,3 +66,16 @@ img:hover {
                  27px 27px 10px #45A452;
     font-size: 300px;
 }
+
+/* Title: Text Overflow */
+.overflowz {
+    width: 500px;
+    font-size: 30px;
+    background-color: gray;
+    white-space: nowrap; /* Don't wrap the text according to the Box that it Contains it  */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.overflowz:hover {
+    overflow: visible;
+}

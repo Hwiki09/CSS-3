@@ -7,3 +7,4 @@
 3- Box Shadow: Horizontal Shadow | Vertical Shadow | Blur | Spread | Color | Inset, Outset(default)
 4- Box Sizing: Border-box / Content-box
 5- Text Shadow: Horizontal Shadow | Vertical Shadow | Blur-Radius | Color
+6- Text Overflow: Elipsis(.. Dots) | Whitespace: nowrap
