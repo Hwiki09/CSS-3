@@ -1,0 +1,6 @@
+1- Border Radius
+2- Vendor Prefixes
+    -Webkit-.. Chrome, Safari, Android, IOS etc
+    -moz-.. Mozilla
+    -o-.. Opera
+    -ms-.. Microsoft
