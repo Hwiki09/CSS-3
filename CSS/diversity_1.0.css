@@ -1,4 +1,4 @@
-/* Border Radius */
+/* Title: Border Radius */
 #radius {
     width: 200px;
     height: 200px;
@@ -11,6 +11,7 @@
     border-bottom-left-radius: 10px; */
     border-bottom-right-radius: 30px;
 
+/* Title: Vendor Prefixes */
     -webkit-border-top-right-radius: 70px;
     
 /*  -moz-border-radius: 10px; For resolve The Not Supporting issue from the Browser
