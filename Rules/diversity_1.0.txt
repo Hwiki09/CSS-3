@@ -15,3 +15,5 @@
     Rotate(deg)
     transform: scale(Width, Height) Or ScaleX() | ScaleY()
                Translate(Width, Height) Or TranslateX() | TranslateY()
+               Skew(x, y) Or SkeyX() | SkewY() // If we write only X value -> Y = 0
+               Matrix(ScaleX, SkewY, SkeyX, ScaleY, TranslateX, TranslateY)
