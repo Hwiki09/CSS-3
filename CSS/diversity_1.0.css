@@ -50,12 +50,12 @@
 }
 
 /* Title: Practice */
-img {
+.Mekkah {
     border-radius: 50%;
     background-color: white;
     border: 2px solid #807878; 
 }
-img:hover {
+.Mekkah:hover {
     box-shadow:  10px 10px 10px #8E8B8B,
     -10px -10px 10px #8E8B8B;
 }
@@ -105,7 +105,7 @@ img:hover {
 .rotate:hover {
     transform: rotate(-75deg);    
 }
-/* Title: 2D Transform: Scale() */
+/* Title: 2D Transform: Scale(), Translate(), Skew() */
 .container {
     width: 400px;
     height: 200px;
@@ -125,6 +125,7 @@ img:hover {
     transform: translate(20px, 20px) scale(1.5) rotate(20deg) skew(30deg);  /* translate: go to x:y position */
 } 
 
+/* Title: 2D Transform: Matrix() */
 .matrix {
     background-color: #69A909;
     color: #FFF;
@@ -137,10 +138,4 @@ img:hover {
     /* Matrix(ScaleX, SkewY, SkewX, ScaleY, TranslateX, TranslateY) */
     -webkit-transform: matrix(1.5, 0, 10deg, .75, 20px, 20px);
     transform: matrix(1.5, 0, 10deg, .75, 20px, 20px);
-}
-
-
-* {
-    font-family: consolas;
-    box-sizing: border-box;
 }
