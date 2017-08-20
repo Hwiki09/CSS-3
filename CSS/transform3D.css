@@ -1,0 +1,22 @@
+/* Title: Global */
+
+* {
+    font-family: consolas;
+    box-sizing: border-box;
+}
+body {
+    perspective: 600px;
+}
+
+/* Title: 3D Transform: Translate() */
+.img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 30px auto;
+    transition:all 1s ease-in-out;
+}
+.img:hover {
+    transform: translate3d(0, 0, 100px);
+}
+
