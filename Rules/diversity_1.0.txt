@@ -13,4 +13,5 @@
     word-wrap:  Break the word even there is no whitespace 
 8- Transform:
     Rotate(deg)
-    transform: scale(Width, Height)
+    transform: scale(Width, Height) Or ScaleX() | ScaleY()
+               Translate(Width, Height) Or TranslateX() | TranslateY()
