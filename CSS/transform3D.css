@@ -18,7 +18,7 @@ img {
 }
 /* Title: 3D Transform: Translate3d() */
 .translate:hover {
-    transform: translate3d(0, 0, 100px);
+    transform: translate3d(0, 0, 50px);
 }
 
 /* Title: 3D Transform: Scale3d() */
@@ -27,7 +27,7 @@ img {
 }
 
 /* Title: 3D Transform: Matrix3d() */
-/* use " http://ds-overdesign.com/transform/matrix3d.html " Website*/
+/* use " https://ds-overdesign.com/transform/matrix3d.html " Website*/
 /* Transform: matrix3d(ScaleX,0,0,0,0,ScaleY,0,0,0,0,1,TranslateX,TranslateY,ScaleZ,1) */
 
 /* Title: Prespective DIDN'T_WORK */
@@ -45,4 +45,35 @@ img {
 }
 .perspect:hover {
     transform: translateX(100px);
+}
+
+/* Title: Transform: Origin, Style */
+.rotate:hover {
+    transform: rotate(360deg);
+    transform-origin: top left;
+}
+
+.father {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+    background-color: #080;
+    transition: all 1s ease-in-out;
+    transform: rotateY(30deg);
+    transform-style: preserve-3d;
+}
+.child1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: #008;
+    transform: translateZ(100px) rotateY(20deg);
+}
+.child2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: #800;
+    transform: translateZ(50px) rotateY(-30deg);
 }
