@@ -5,3 +5,4 @@
                 Perspective-origin: X Y;/ Default Value: 50% 50%
 3- Transform: Origin: from where the element gonna rotate
               Style: flat(default Valye) | Preserve3D
+              Backface Visibility: visible(default value) | hidden
