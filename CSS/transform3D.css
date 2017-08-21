@@ -8,15 +8,23 @@ body {
     perspective: 600px;
 }
 
-/* Title: 3D Transform: Translate() */
-.img {
+img {
     width: 200px;
     height: 200px;
     display: block;
-    margin: 30px auto;
+    margin: 50px auto;
     transition:all 1s ease-in-out;
 }
-.img:hover {
+/* Title: 3D Transform: Translate3d() */
+.translate:hover {
     transform: translate3d(0, 0, 100px);
 }
 
+/* Title: 3D Transform: Scale3d() */
+.scale:hover {
+    transform: scale3d(1, 1, 4) rotateY(45deg);
+}
+
+/* Title: 3D Transform: Matrix3d() */
+/* use " http://ds-overdesign.com/transform/matrix3d.html " Website*/
+/* Transform: matrix3d(ScaleX,0,0,0,0,ScaleY,0,0,0,0,1,TranslateX,TranslateY,ScaleZ,1) */
